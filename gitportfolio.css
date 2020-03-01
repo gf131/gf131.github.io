@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 40px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding-bottom: 50px;
+}
+main {background-color: #fafafa;
+  color: black;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 1.2em;
+}
+.image {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav {background-color: #f0f0f0;
+   padding: 1em;
+	 overflow:hidden;
+	 width: 100%;
+ }
+ nav a {color:#2b2b2b;
+ 	   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+ 	   font-weight: bolder;
+     font-size: 1.35em;
+ 	   text-align:center;
+ 	   text-decoration: none;
+ 	   text-transform: uppercase;
+ 	   width:20%;
+ 	   float: left;
+ 	   padding: 5px;
+}
+a:hover {color: #5bba91;}
+#firstText {padding-top:30px;}
+#secondText {padding-top:50px;}
+#thirdText {padding-top:70px;}
+#fourthText {padding-top:90px;}
+#progress {font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 1.2em;
+margin:auto;
+padding:70px 0;
+}
+@media (min-width: 481px) and (max-width:768px) {
+  nav {
+    width:auto;
+    padding:10px;
+  }
+  nav a {
+    font-size: 1em;
+    width:auto;
+  }
+  .column {
+    width:75%;
+    padding:10px;
+  }
+  .row:after {
+    width:auto;
+    padding-bottom:80px;
+  }
+.image {width:80%;}
+main {
+  font-size: 80%;
+  padding:80px 0 80px 0;
+}
+#firstText {padding-top:10px;}
+#secondText {padding-top:10px;}
+#thirdText {padding-top:10px;}
+#fourthText {padding-top:10px;}
+}
+@media (max-width:480px) {
+  nav {
+    width:auto;
+    padding:10px;
+  }
+  nav a {
+    font-size: 80%;
+    width:auto;
+  }
+  .column {
+    width:100%;
+    padding: 5px;
+    margin:auto;
+  }
+  .row:after {
+    float:none;
+    width:auto;
+    padding:5px;
+  }
+.image {width:50%;
+margin:auto;}
+main {
+  font-size: 70%;
+  padding:80px 0 80px 0;
+}
+#firstText {padding-top:10px;}
+#secondText {padding-top:10px;}
+#thirdText {padding-top:10px;}
+#fourthText {padding-top:10px;}
+}
