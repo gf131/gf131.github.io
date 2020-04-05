@@ -1,0 +1,23 @@
+.text {color: #4B7447;
+      font-family: "Lucida Sans Unicode", "Lucida Grande",
+      sans-serif;
+      font-size: 90%;}
+.sidetext {color: #EB8A44;
+          font-family: "Lucida Sans Unicode", "Lucida Grande",
+          sans-serif;
+          font-size: 80%;}
+h1 {color: #EB8844;
+    font-family: "Palatino Linotype", "Book Antiqua",
+                "Palatino", serif;
+    font-weight: bold;
+    font-size: 500%;}
+h3 {color: #F9DC24;
+    font-family: "Palatino Linotype", "Book Antiqua",
+                "Palatino", serif;}
+h4 {color: #8EBA43;
+    font-family: "Palatino Linotype", "Book Antiqua",
+                "Palatino", serif;}
+h5 {color: #4B7447;
+      font-family: "Lucida Sans Unicode", "Lucida Grande",
+      sans-serif;
+      font-size: 200%;}
