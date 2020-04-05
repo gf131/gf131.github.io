@@ -21,3 +21,6 @@ h5 {color: #4B7447;
       font-family: "Lucida Sans Unicode", "Lucida Grande",
       sans-serif;
       font-size: 200%;}
+.responsive {
+        width: 100%;
+        height: auto;}
