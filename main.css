@@ -1,0 +1,87 @@
+#intro-header {margin-top: 20px;}
+#farm {margin-top: 20px;
+        padding: 0 30px 0 30px;}
+div p {padding-top: 20px;
+        font-size: 90%;}
+#chocobos {margin-top: 40px;
+            padding: 0 30px 0 30px;}
+#pricing {margin-top:40px;}
+#location {margin-top: 40px;
+            margin-bottom: 10px;
+          padding: 0 30px 0 30px;}
+div h1 {font-size: 250%;}
+div h3 {font-size: 150%;}
+div h4 {font-size: 120%;}
+div img {padding-top: 20px;}
+
+@media (min-width: 576px) {
+  #intro-header {margin-top: 25px;}
+  #farm {margin-top: 50px;
+          padding: 0 40px 0 40px;}
+  div p {padding-top: 40px;
+          font-size: 110%;}
+  #chocobos {margin-top: 50px;
+              padding: 0 40px 0 40px;}
+  #pricing {margin-top:50px;}
+  #location {margin-top: 50px;
+              margin-bottom: 10px;
+            padding: 0 30px 0 30px;}
+            div h1 {font-size: 260%;}
+            div h3 {font-size: 160%;}
+            div h4 {font-size: 130%;}
+            div img {padding-top: 30px;}
+              }
+
+@media (min-width: 768px) {
+  #intro-header {margin-top: 35px;}
+  #farm {margin-top: 55px;
+          padding: 0 45px 0 45px;}
+  div p {padding-top: 45px;
+          font-size: 130%;}
+  #chocobos {margin-top: 55px;
+              padding: 0 45px 0 45px;}
+  #pricing {margin-top: 55px;}
+  #location {margin-top: 55px;
+              margin-bottom: 15px;
+            padding: 0 45px 0 45px;}
+            div h1 {font-size: 270%;}
+            div h3 {font-size: 165%;}
+            div h4 {font-size: 140%;}
+            div img {padding-top: 40px;}
+            }
+
+ @media (min-width: 992px) {
+   #intro-header {margin-top: 47px;}
+   #farm {margin-top: 57px;
+           padding: 0 52px 0 52px;}
+  div p {padding-top: 40px;
+    font-size: 140%;}
+#chocobos {margin-top: 57px;
+        padding: 0 52px 0 52px;}
+#pricing {margin-top: 57px;}
+#location {margin-top: 57px;
+        margin-bottom: 15px;
+      padding: 0 52px 0 52px;}
+      div h1 {font-size: 280%;}
+      div h3 {font-size: 175%;}
+      div h4 {font-size: 150%;}
+      div img {padding-top: 40px;}
+           }
+
+@media (min-width: 1200px) {
+  #intro-header {margin-top: 50px;}
+  #farm {margin-top: 60px;
+          padding: 0 55px 0 55px;}
+  div p {padding-top: 60px;
+    font-size: 145%;}
+#chocobos {margin-top: 60px;
+        padding: 0 55px 0 55px;}
+#pricing {margin-top: 60px;}
+#location {margin-top: 60px;
+        margin-bottom: 15px;
+      padding: 0 55px 0 55px;}
+      div h1 {font-size: 285%;}
+      div h3 {font-size: 180%;}
+      div h4 {font-size: 155%;}
+      div img {padding-top: 40px;}
+            }
